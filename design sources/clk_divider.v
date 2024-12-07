@@ -1,17 +1,33 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-
-// Module Name:    clk_divider 
-
+// Company: 
+// Engineer: 
+// 
+// Create Date: 11/22/2024 01:02:57 PM
+// Design Name: 
+// Module Name: clk_divider
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
 //////////////////////////////////////////////////////////////////////////////////
+
+
 module clk_divider(
-	input clk_in,
+    input clk_in,
 	input rst,
 	output reg divided_clk
     );
 	 
 	 
-parameter toggle_value = 5000000; // TODO: Calculate correct value
+parameter toggle_value = 50000000;
 
 	 
 reg[32:0] cnt;

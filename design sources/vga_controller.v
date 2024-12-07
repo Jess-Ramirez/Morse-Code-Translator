@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 11/26/2024 04:37:56 PM
+// Create Date: 11/26/2024 09:24:12 AM
 // Design Name: 
 // Module Name: vga_controller
 // Project Name: 
@@ -18,6 +18,7 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+
 
 module vga_controller(
     input clk_100MHz,   // from Basys 3
@@ -118,5 +119,3 @@ module vga_controller(
     assign p_tick = w_25MHz;
             
 endmodule
-
-
