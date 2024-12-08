@@ -22,8 +22,8 @@
 
 module vga_TOP(
     input clk,          
-    input conReset,        // resets the unsent input
-    input reset,            //resets the screen
+    input conReset,        // resets screen
+    input reset,            //stops the clock
     input send,
     input button,
     output [9:0] letter,    //Sent to LED's to show if a . or - was inputted
