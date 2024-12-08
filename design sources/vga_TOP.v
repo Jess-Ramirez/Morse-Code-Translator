@@ -22,16 +22,16 @@
 
 module vga_TOP(
     input clk,          
-    input conReset,        // btnC on Basys 3
-    input reset,
+    input conReset,        // resets the unsent input
+    input reset,            //resets the screen
     input send,
     input button,
-    output [9:0] letter,
+    output [9:0] letter,    //Sent to LED's to show if a . or - was inputted
     output hsync,       // to VGA connector
     output vsync,       // to VGA connector
     output vga_r,   // to DAC, to VGA connector
-    output sendoff,
-    output clkLed
+    output sendoff, //connects to LED that corresponds to the send-button being live
+    output clkLed    //connects to the LED that corresponds to a positive clock cycle
     );
     
     // signals
