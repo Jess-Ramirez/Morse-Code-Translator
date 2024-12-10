@@ -1,7 +1,7 @@
 MORSE CODE TRANSLATOR
 Jessica Ramirez, Lola Shadare, Jacob Perry
 -------------------------------------------
-Link to video:
+Link to video: https://drive.google.com/file/d/1hxbJpg75ievgFomxVZAwcbuQU6udUSEt/view?usp=sharing
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
